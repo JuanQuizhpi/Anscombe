@@ -1,4 +1,5 @@
-# UNIVERSIDAD POLITECNICA SALESIANA
+# UNIVERSIDAD POLITÉCNICA SALESIANA
+<img src="https://i.imgur.com/gx70PrA.jpeg" width="150" />
 
 ### Nombre: Juan Francisco Quizhpi Fajardo
 ### Carrera: Computación
@@ -21,5 +22,7 @@ A pesar de que cada uno de los cuatro conjuntos de datos tiene:
 * La misma línea de regresión lineal.
 
 ...las gráficas son completamente diferentes para canda conjunto.
+
+![Anscombe](https://i.imgur.com/YFZYE2J.png)
 
 ## Importancia del Cuarteto de Anscombe
