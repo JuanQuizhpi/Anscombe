@@ -35,3 +35,7 @@ La visualización de los datos revela que:
 * El cuarto parece completamente alineado, pero en realidad todo depende de un solo punto que altera la relación.
 
 En fin esto demuestra que las estadísticas resumen información dejando oculto detalles importantes. Es así que visualizar los datos permite detectar relaciones no evidentes, errores o irregularidades
+
+## Referencia
+
+* Azeotropes. (2020, 31 de octubre). Cuarteto de Anscombe. Recuperado de: https://azeotropes.wordpress.com/2020/10/31/cuarteto-de-anscombe/
