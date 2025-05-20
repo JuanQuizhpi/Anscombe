@@ -1,0 +1,55 @@
+---
+title: "DatasaurusRegresionLineal"
+author: "JuanQuizhpi"
+date: "2025-04-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cargamos las librerias 
+
+```{r}
+library(tidyverse)
+library(datasauRus)
+library(dplyr)
+library(ggplot2)
+```
+
+## Imagen Trabajo Clase
+
+![JuanQuizhpiRLineal](https://i.imgur.com/UJbaspv.jpeg)
+
+
+## Regresion lineal 
+
+```{r}
+h_lines_data <- datasaurus_dozen %>%
+  filter(dataset == "h_lines")
+
+# Mostramos las primeras filas
+head(h_lines_data)
+```
+
+```{r}
+# Ajustar la regresión lineal
+modelo <- lm(y ~ x, data = h_lines_data)
+
+# Mostrar el resumen del modelo
+summary(modelo)
+
+```
+
+```{r}
+ggplot(h_lines_data, aes(x = x, y = y)) +
+  geom_point(color = "blue", alpha = 0.6) +  # Puntos en azul
+  geom_smooth(method = "lm", color = "red", se = FALSE) +  # Línea de regresión en rojo
+  theme_minimal() +
+  labs(title = "Regresión Lineal en h_lines",
+       x = "Variable X",
+       y = "Variable Y")
+
+```
+
